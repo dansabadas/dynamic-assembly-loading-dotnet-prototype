@@ -3,7 +3,8 @@ using System;
 
 namespace ClassStandardLibrary1
 {
-    public class Class12 : Interface1
+    [Serializable]
+    public class Class12 : Interface2
     {
         public void PrintMessage()
         {
